@@ -1,0 +1,100 @@
+2.2 code structure
+
+	-statements : with or without semicolons
+		alert(“message1”);alert(“message2”);
+
+		alert(“message1”);
+		alert(“message2”);
+		
+		alert(“message1”)
+		alert(“message2”)
+
+		recommendation to put semicolons
+
+	-comments :  //	1 line comment
+			//       multiline comment
+
+		nested comments are not supported:
+
+
+		/* 
+			//	
+		*/
+
+2.3 the modern mode “use strict”
+
+	needs to be at the top of script  in order to work with that script in a modern way
+
+	once you put “use strict” you cannot going back in your script
+
+	we must “use strict”  in all our codes until we use clases and that structures
+
+2.4 variables
+
+	//structure : 
+
+
+	//older scripts var variableName
+
+	let variableName;
+
+	variableName = value;
+
+	alert(variable name)
+
+
+
+	let var1 = value1
+	let var2 = value2
+
+
+
+	let var1 = value1,
+	     var2 = value2,
+	     var3 = value3;
+
+
+	copying data:
+
+
+	let hello = “hello world”;
+
+	let message = hello
+
+	alert(hello)
+	alert(message)
+
+
+	you can declare a variable once . More than that makes an error
+
+	.1st character cannot be a number
+	.name must contain only letters, digits or symbols _ or $
+
+		reserved names:
+
+		let, class, return, function
+
+	assignment without LET is posible if you don´t put “use strict”
+
+		num = 5
+
+
+	constant
+
+		instead let we can use const
+
+
+		const pi = 3.14
+
+
+	values for variableName
+
+		string, int
+
+
+	NOMENCATURE
+
+		some constant are written this way : COLOR_LALA
+
+
+		use an extra variable instead reusing
