@@ -1,1 +1,51 @@
 250125 first commit
+
+2.5 data types
+
+NUMBER : has the regular math operation and special values like : Infinite (n/0) or NaN computational error(not number /number	)
+
+BIGINT: number range : +-(253-1)  bigint can expand outside that limit
+
+STRINGS:
+
+	“hello”: double quotes
+	‘hello’ : single quotes
+	`hello` : backticks
+
+	we can embed strings in this format ${string}  when we declare´em or in alert function 
+
+
+BOOLEAN: true or false values
+
+	example : let greater = 5<1;
+
+	alert(greater);    // false
+
+NULL:
+
+	non-existing object , or null pointer : nothing, empty or value uknow
+
+	let age = nulll
+
+
+UNDEFINED VALUE:
+
+
+	value not assigned
+
+	let age;
+
+	we can assing undefined but is recommended to use null for empty or unknow
+
+
+OBJECTS AND SYMBOLS
+
+	used to store collection of data unlike previous types that are called primitives
+
+
+
+TYPEOF
+
+returns type of data
+
+	typeof is an operator not a function
