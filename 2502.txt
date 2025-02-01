@@ -1,0 +1,62 @@
+250201:
+
+-Part 1 js language
+
+2.6 Interaction : alert prompt confirm
+
+alert : shows a  message waiting for ok
+
+	alert(message); 
+
+prompt
+
+	result = prompt(param1,[param2]);
+
+	[ ] = means optional //unless you use internet explorer
+
+	returns value or null and it has an input fieldl
+
+
+
+
+let age = prompt (“how old are you”, [100]);
+alert(`your age is ${age} years old`);
+
+
+
+
+
+
+
+CONFIRM
+
+function confirm shows us true or false value depend if we click acept or cancel
+
+let isBoss = confirm(“are you the boss”);
+alert(isBoss);
+
+
+250102
+
+${variable} :  inside a text : text must be placed in ` sentence `
+
+
+alert(something);
+prompt(“text”,[standar value]);
+confirm(“text”);
+
+
+250201:
+
+LINUX
+
+mkdir foldername
+
+GIT
+
+central page -> settings -> developer settings -> personal tokens
+
+credential manager: -> generic credentials -> 
+
+	address : github page : https://github.com
+	username : token
