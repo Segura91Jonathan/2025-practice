@@ -1,0 +1,49 @@
+250203
+
+-Part 1 js language
+ 
+2.7 type conversion
+
+	.string conversion
+
+		automatically happens in functions like : alert(value)
+
+		a function to force the conversion 
+
+		string(value)
+
+
+	.number conversion
+
+
+		trough operators : 
+
+		alert(“2”+”5”);		//this is equals to 7, strings are converted in numbers
+
+
+		function to force conversion:
+
+
+		Number(value);
+
+		if string is a non valid number then function shows us as result NaN for 
+		for instance
+
+	.boolean conversion
+
+
+		happens automatically in boolean operations 
+
+		conversion rule:
+
+		values instinctively empty : 0, an empty string, NaN, null  turns into 0
+	
+		other values turns in 1
+
+		“0” is true
+	
+
+		function to force change : 
+
+
+		boolean( value)
