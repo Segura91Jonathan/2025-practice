@@ -1,0 +1,69 @@
+250204
+
+-Part 1 js language
+
+2.8 BASIC OPERATORS, MATHS
+
+terms: unary, binary, operand
+
+opreand: 5*2  // here operand are 5 and 2  called “ARGUMENTS” as well
+
+unary operator: if is a simple operand . Example - in an argument changes sign of a number
+
+binary operator : if it has 2 arguments: EXAMPLE - in a subtraction: 3-2
+
+	Operators:
+
+	MATH:  	+	adition
+			-	substraction
+			*	multiplication
+			/	division
+			%	remainder
+					the rest of a division:
+
+					6%4 = 2 //the rest of that division
+	
+			**	exponenciation
+
+
+				2**4 = 16
+
+STRING CONCATENATION WITH +
+
+	“my”+”streng” = mystreng
+
+	´1´+2 = ´12´
+
+	2+ ´1´ = ´21´
+
+	
+	´1´-2 = -1
+
+	´6´/ ´3´ = 2
+
+
+	both operators convert its arguments in numbers
+
+
+	NUMERIC CONVERSION WITH +
+
+		any other kind of value turns into a number with unary operator +
+
+
+		(+true);  //  1
+
+		(+””);	//0
+
+		is like Number() function
+
+
+	OPERATOR PRECEDENCE
+
+		TO BE CONTINUE		
+
+
+
+	LINUX
+
+
+	rm filename	/deletes file
